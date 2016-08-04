@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/everypolitician/wikidata-fetcher.git
-  revision: e661ddf31137ec6fb2d8a4e4e66dc9e1c1419c45
+  revision: f935d98a345b280da72639c058a903d8d3e34435
   specs:
     wikidata-fetcher (0.17.1)
       colorize
@@ -14,9 +14,9 @@ GIT
 
 GIT
   remote: git://github.com/everypolitician/wikisnakker.git
-  revision: 81c25b9ab25f1345fbb05a60f7aa65e8abde693e
+  revision: c2895a600fb78b2ad0df3e8ae3d24b4586a94179
   specs:
-    wikisnakker (0.5.0)
+    wikisnakker (0.6.0)
 
 GIT
   remote: git://github.com/openaustralia/scraperwiki-ruby.git
@@ -89,8 +89,8 @@ PLATFORMS
 DEPENDENCIES
   pry
   scraperwiki!
-  wikidata-fetcher (>= 0.17.0)!
-  wikisnakker!
+  wikidata-fetcher (>= 0.17.1)!
+  wikisnakker (>= 0.6.0)!
 
 BUNDLED WITH
    1.12.5
