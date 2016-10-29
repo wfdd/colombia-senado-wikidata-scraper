@@ -89,6 +89,7 @@ PLATFORMS
 
 DEPENDENCIES
   pry
+  rest-client
   scraperwiki!
   wikidata-fetcher (>= 0.18.2)!
   wikisnakker (>= 0.7.0)!
